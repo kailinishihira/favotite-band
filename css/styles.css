@@ -4,13 +4,21 @@ body {
   text-align: center;
 }
 img {
-  float: left;
+  position: relative;
   width: 50%;
 }
 .sidebar {
-  width: 30%;
+  width: 20%;
   float: right;
   background: red;
+}
+
+.menubar {
+  width: 20%;
+  float: left;
+  background: #F5C94A;
+  margin: 20px;
+  font-size: 30px;
 }
 
 ul {
